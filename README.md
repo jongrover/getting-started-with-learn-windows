@@ -27,6 +27,10 @@ you crazy masochist.
    1. Unzip the archive to a directory that you'll remember (maybe `C:\Program Files\Ant`).
    2. Add an environment variable called `ANT_HOME` that points to the unarchived directory.
    3. Edit your `Path` environment variable so that it includes `%ANT_HOME%\bin`.
-5. Download the [Learn gem](https://rubygems.org/gems/learn-co/versions/3.3.0): `gem install learn-co`.
+5. Install `learn-test`
+   1. In a directory where you'd like to install external libraries (maybe `C:\Program Files\learn`?), clone [learn-test](https://github.com/learn-co/learn-test): `git clone git@github.com:learn-co/learn-test.git`
+   2. Enter the `learn-test` directory (`cd learn-test`) and build the gem: `gem build learn-test.gemspec`.
+   3. Install the gem: `gem install learn-test-x.x.x.gem` (where `x.x.x` is the version that you've installed).
+   4. Now when you're ready to check the results of a lab, you can run `learn-test` from the lab's directory.
 
 That's it! You should now be able to run `learn` in any of the labs and observe your progress on Learn.co. Happy coding!
