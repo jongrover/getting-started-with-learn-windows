@@ -14,8 +14,9 @@ you crazy masochist.
    4. Be sure to add your SSH key (which should have been automatically copied to your clipboard) to your GitHub account.
    5. You can make sure that everything works by cloning this repo over SSH.
 2. Set up your SSL certificates
-   1. Enter `Invoke-WebRequest http://curl.haxx.se/ca/cacert.pem -OutFile C:\RailsInstaller\cacert.pem` at the command prompt
-   2. Update your environment variables
+   1. Open PowerShell (it should be installed on your system by default).
+   2. Enter `Invoke-WebRequest http://curl.haxx.se/ca/cacert.pem -OutFile C:\RailsInstaller\cacert.pem` at the command prompt
+   3. Update your environment variables
       1. Find the Environment Variables dialogue (it's somewhere under Control Panel, but you can also just search for it).
       ![Environment Variables Dialogue on Windows 8](environment_variables_dialogue.png)
       2. Add a variable called `SSL_CERT_FILE` that points to `C:\RailsInstaller\cacert.pem`.
