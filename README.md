@@ -8,7 +8,7 @@ you crazy masochist.
 
 1. Install Ruby (you'll need this to interact with the Learn platform)
    1. Download the [Windows - Ruby 2.2](http://railsinstaller.org/en) Rails Installer
-   ![Rails Installer](rails_installer.png)
+   ![Rails Installer](https://github.com/learn-co-curriculum/getting-started-with-learn-windows/blob/master/rails_installer.png)
    2. Run the installer. It should finish without a hitch.
    3. You can verify the installation by opening the newly installed [Git Bash](https://git-for-windows.github.io/) program.
    4. Be sure to add your SSH key (which should have been automatically copied to your clipboard) to your GitHub account.
@@ -36,6 +36,6 @@ you crazy masochist.
 
  From here on out, whenever a lab or README asks you to open a terminal, you'll want to open Git Bash. You can just search for it using Windows' search feature and it should show up.
 
- ![git bash](git_bash.png)
+ ![git bash](https://github.com/learn-co-curriculum/getting-started-with-learn-windows/blob/master/git_bash.png)
 
 That's it! You should now be able to run `learn` in any of the labs and observe your progress on Learn.co. Happy coding!
