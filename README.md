@@ -8,7 +8,7 @@ you crazy masochist.
 
 1. Install Ruby (you'll need this to interact with the Learn platform)
    1. Download the [Windows - Ruby 2.2](http://railsinstaller.org/en) Rails Installer
-   ![Rails Installer](https://github.com/learn-co-curriculum/getting-started-with-learn-windows/blob/master/rails_installer.png)
+   ![Rails Installer](http://curriculum-content.s3.amazonaws.com/javacs/rails_installer.png)
    2. Run the installer. It should finish without a hitch.
    3. You can verify the installation by opening the newly installed [Git Bash](https://git-for-windows.github.io/) program.
    4. Be sure to add your SSH key (which should have been automatically copied to your clipboard) to your GitHub account.
@@ -18,7 +18,7 @@ you crazy masochist.
    2. Enter `Invoke-WebRequest http://curl.haxx.se/ca/cacert.pem -OutFile C:\RailsInstaller\cacert.pem` at the command prompt
    3. Update your environment variables
       1. Find the Environment Variables dialogue (it's somewhere under Control Panel, but you can also just search for it).
-      ![Environment Variables Dialogue on Windows 8](environment_variables_dialogue.png)
+      ![Environment Variables Dialogue on Windows 8](http://curriculum-content.s3.amazonaws.com/javacs/environment_variables_dialogue.png)
       2. Add a variable called `SSL_CERT_FILE` that points to `C:\RailsInstaller\cacert.pem`.
       3. Keep this dialogue open. You'll need it for a few more steps.
 3. Install the appropriate [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your system.
@@ -34,6 +34,6 @@ you crazy masochist.
 
  From here on out, whenever a lab or README asks you to open a terminal, you'll want to open Git Bash. You can just search for it using Windows' search feature and it should show up.
 
- ![git bash](https://github.com/learn-co-curriculum/getting-started-with-learn-windows/blob/master/git_bash.png)
+ ![git bash](http://curriculum-content.s3.amazonaws.com/javacs/git_bash.png)
 
 That's it! You should now be able to run `learn-test` in any of the labs and observe your progress on Learn.co. Happy coding!
