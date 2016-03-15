@@ -29,13 +29,11 @@ you crazy masochist.
    2. Add an environment variable called `ANT_HOME` that points to the unarchived directory.
    3. Edit your `Path` environment variable so that it includes `%ANT_HOME%\bin`.
 5. Install `learn-test`
-   1. In a directory where you'd like to install external libraries (maybe `C:\Program Files\learn`?), clone [learn-test](https://github.com/learn-co/learn-test): `git clone git@github.com:learn-co/learn-test.git`
-   2. Enter the `learn-test` directory (`cd learn-test`) and build the gem: `gem build learn-test.gemspec`.
-   3. Install the gem: `gem install learn-test-x.x.x.gem` (where `x.x.x` is the version that you've installed).
+   1. Open up the Git Bash Terminal and type `gem install learn-test`. This is the tool that you will use to run the tests and submit work to the Learn Platform
    4. Now when you're ready to check the results of a lab, you can run `learn-test` from the lab's directory.
 
  From here on out, whenever a lab or README asks you to open a terminal, you'll want to open Git Bash. You can just search for it using Windows' search feature and it should show up.
 
  ![git bash](https://github.com/learn-co-curriculum/getting-started-with-learn-windows/blob/master/git_bash.png)
 
-That's it! You should now be able to run `learn` in any of the labs and observe your progress on Learn.co. Happy coding!
+That's it! You should now be able to run `learn-test` in any of the labs and observe your progress on Learn.co. Happy coding!
