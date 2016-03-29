@@ -23,7 +23,7 @@ you crazy masochist.
       3. Keep this dialogue open. You'll need it for a few more steps.
 3. Install the appropriate [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your system.
    1. Add an environment variable (you did keep the dialogue open, right?) called `JAVA_HOME` that points to your installed JDK. (It should point to something like `C:\Program Files\Java\jdk1.8.0_74`.)
-   2. Edit your `Path` (or `PATH`) environment variable. This is a semicolon-separated list of locations where the command prompt will attempt to find executables. You'll want to add `JAVA_HOME` to the end: `C:\path\already\set;%JAVA_HOME%`.
+   2. Edit your `Path` (or `PATH`) environment variable. This is a semicolon-separated list of locations where the command prompt will attempt to find executables. You'll want to add `JAVA_HOME\bin` to the end: `C:\path\already\set;%JAVA_HOME%\bin`.
 4. Download and unzip [Ant](http://ant.apache.org/bindownload.cgi). (Just download the `zip`'d binary version.)
    1. Unzip the archive to a directory that you'll remember (maybe `C:\Program Files\Ant`).
    2. Add an environment variable called `ANT_HOME` that points to the unarchived directory.
@@ -37,3 +37,5 @@ you crazy masochist.
  ![git bash](http://curriculum-content.s3.amazonaws.com/javacs/git_bash.png)
 
 That's it! You should now be able to run `learn-test` in any of the labs and observe your progress on Learn.co. Happy coding!
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/getting-started-with-learn-windows'>Getting Started With Learn (Windows)</a> on Learn.co and start learning to code for free.</p>
