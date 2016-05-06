@@ -23,11 +23,11 @@ you crazy masochist.
       3. Keep this dialogue open. You'll need it for a few more steps.
 3. Install the appropriate [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your system.
    1. Add an environment variable (you did keep the dialogue open, right?) called `JAVA_HOME` that points to your installed JDK. (It should point to something like `C:\Program Files\Java\jdk1.8.0_74`.)
-   2. Edit your `Path` (or `PATH`) environment variable. This is a semicolon-separated list of locations where the command prompt will attempt to find executables. You'll want to add `JAVA_HOME\bin` to the end: `C:\path\already\set;%JAVA_HOME%\bin`.
+   2. Edit your `Path` (or `PATH`) environment variable. (If you see two `PATH`s — e.g., one for "system" and one for "user" — just update the user `PATH`.) This is a semicolon-separated list of locations where the command prompt will attempt to find executables. You'll want to add `JAVA_HOME\bin` to the end: `C:\path\already\set;%JAVA_HOME%\bin`.
 4. Download and unzip [Ant](http://ant.apache.org/bindownload.cgi). (Just download the `zip`'d binary version.)
    1. Unzip the archive to a directory that you'll remember (maybe `C:\Program Files\Ant`).
    2. Add an environment variable called `ANT_HOME` that points to the unarchived directory.
-   3. Edit your `Path` environment variable so that it includes `%ANT_HOME%\bin`.
+   3. Edit your `Path` environment variable so that it includes `%ANT_HOME%\bin`. (Again, if you see two `PATH`s — e.g., one for "system" and one for "user" — just update the user `PATH`.)
 5. Install `learn-test`
    1. Open up the Git Bash Terminal and type `gem install learn-test`. This is the tool that you will use to run the tests and submit work to the Learn Platform
    4. Now when you're ready to check the results of a lab, you can run `learn-test` from the lab's directory.
